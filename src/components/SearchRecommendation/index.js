@@ -20,37 +20,3 @@ const SearchRecommendation = props => {
   )
 }
 export default SearchRecommendation
-
-//   to={{
-//     pathname: `/state/${stateCode}`,
-//     state: {stateWiseData: allStates, timeLineData},
-//   }}
-
-// import {Link} from 'react-router-dom'
-// import {BiChevronRightSquare} from 'react-icons/bi'
-
-// import './index.css'
-
-// const SearchResult = props => {
-//   const {states} = props
-
-//   return (
-//     <li>
-//       <Link className="search-link" to={`/state/${states.state_code}`}>
-//         <div className="search-main-container">
-//           <h1 className="search-heading">{states.state_name}</h1>
-//           <button className="search-button" type="button">
-//             {states.state_code}
-//             <BiChevronRightSquare
-//               alt="icon search"
-//               className="icon"
-//               testid="searchResultChevronRightIcon"
-//             />
-//           </button>
-//         </div>
-//       </Link>
-//     </li>
-//   )
-// }
-
-// export default SearchResult
